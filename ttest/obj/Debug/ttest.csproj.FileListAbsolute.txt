@@ -1,0 +1,10 @@
+C:\Users\YUHAN\Desktop\Test\ttest\ttest\bin\Debug\ttest.exe.config
+C:\Users\YUHAN\Desktop\Test\ttest\ttest\bin\Debug\ttest.exe
+C:\Users\YUHAN\Desktop\Test\ttest\ttest\bin\Debug\ttest.pdb
+C:\Users\YUHAN\Desktop\Test\ttest\ttest\obj\Debug\ttest.csproj.AssemblyReference.cache
+C:\Users\YUHAN\Desktop\Test\ttest\ttest\obj\Debug\ttest.Form1.resources
+C:\Users\YUHAN\Desktop\Test\ttest\ttest\obj\Debug\ttest.Properties.Resources.resources
+C:\Users\YUHAN\Desktop\Test\ttest\ttest\obj\Debug\ttest.csproj.GenerateResource.cache
+C:\Users\YUHAN\Desktop\Test\ttest\ttest\obj\Debug\ttest.csproj.CoreCompileInputs.cache
+C:\Users\YUHAN\Desktop\Test\ttest\ttest\obj\Debug\ttest.exe
+C:\Users\YUHAN\Desktop\Test\ttest\ttest\obj\Debug\ttest.pdb
