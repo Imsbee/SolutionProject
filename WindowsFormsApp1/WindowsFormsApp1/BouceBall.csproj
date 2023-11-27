@@ -106,5 +106,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="bouncyball image\block.png" />
+    <Content Include="bouncyball image\character.png" />
+    <Content Include="bouncyball image\double jump icon.png" />
+    <Content Include="bouncyball image\jump.png" />
+    <Content Include="bouncyball image\left.png" />
+    <Content Include="bouncyball image\right.png" />
+    <Content Include="bouncyball image\star.png" />
+    <Content Include="bouncyball image\thorn.png" />
+    <Content Include="bouncyball image\배경.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

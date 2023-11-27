@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.Ball = new System.Windows.Forms.PictureBox();
             this.Star1 = new System.Windows.Forms.PictureBox();
             this.Star2 = new System.Windows.Forms.PictureBox();
@@ -38,6 +40,7 @@
             this.Wall6 = new System.Windows.Forms.PictureBox();
             this.Wall3 = new System.Windows.Forms.PictureBox();
             this.Wall5 = new System.Windows.Forms.PictureBox();
+            this.gameTimer = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.Ball)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Star1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Star2)).BeginInit();
@@ -52,19 +55,23 @@
             // 
             // Ball
             // 
-            this.Ball.BackColor = System.Drawing.Color.Blue;
+            this.Ball.BackColor = System.Drawing.SystemColors.Control;
+            this.Ball.Image = ((System.Drawing.Image)(resources.GetObject("Ball.Image")));
             this.Ball.Location = new System.Drawing.Point(572, 263);
             this.Ball.Name = "Ball";
             this.Ball.Size = new System.Drawing.Size(30, 30);
+            this.Ball.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Ball.TabIndex = 5;
             this.Ball.TabStop = false;
             // 
             // Star1
             // 
-            this.Star1.BackColor = System.Drawing.Color.Yellow;
+            this.Star1.BackColor = System.Drawing.SystemColors.Control;
+            this.Star1.Image = ((System.Drawing.Image)(resources.GetObject("Star1.Image")));
             this.Star1.Location = new System.Drawing.Point(37, 174);
             this.Star1.Name = "Star1";
             this.Star1.Size = new System.Drawing.Size(40, 40);
+            this.Star1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Star1.TabIndex = 6;
             this.Star1.TabStop = false;
             // 
@@ -89,9 +96,9 @@
             // Wall4
             // 
             this.Wall4.BackColor = System.Drawing.Color.Gray;
-            this.Wall4.Location = new System.Drawing.Point(425, 299);
+            this.Wall4.Location = new System.Drawing.Point(417, 299);
             this.Wall4.Name = "Wall4";
-            this.Wall4.Size = new System.Drawing.Size(320, 40);
+            this.Wall4.Size = new System.Drawing.Size(353, 40);
             this.Wall4.TabIndex = 9;
             this.Wall4.TabStop = false;
             // 
@@ -140,6 +147,12 @@
             this.Wall5.TabIndex = 14;
             this.Wall5.TabStop = false;
             // 
+            // gameTimer
+            // 
+            this.gameTimer.Enabled = true;
+            this.gameTimer.Interval = 20;
+            this.gameTimer.Tick += new System.EventHandler(this.gameTimer_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -157,6 +170,9 @@
             this.Controls.Add(this.Ball);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
+            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyUp);
             ((System.ComponentModel.ISupportInitialize)(this.Ball)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Star1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Star2)).EndInit();
@@ -182,6 +198,7 @@
         private System.Windows.Forms.PictureBox Wall6;
         private System.Windows.Forms.PictureBox Wall3;
         private System.Windows.Forms.PictureBox Wall5;
+        private System.Windows.Forms.Timer gameTimer;
     }
 }
 

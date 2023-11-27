@@ -1,0 +1,13 @@
+C:\Users\zoshs\OneDrive\문서\workspace\C#\SolutionProject\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\zoshs\OneDrive\문서\workspace\C#\SolutionProject\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\zoshs\OneDrive\문서\workspace\C#\SolutionProject\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\zoshs\OneDrive\문서\workspace\C#\SolutionProject\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\BouceBall.csproj.AssemblyReference.cache
+C:\Users\zoshs\OneDrive\문서\workspace\C#\SolutionProject\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\zoshs\OneDrive\문서\workspace\C#\SolutionProject\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+C:\Users\zoshs\OneDrive\문서\workspace\C#\SolutionProject\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form3.resources
+C:\Users\zoshs\OneDrive\문서\workspace\C#\SolutionProject\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form4.resources
+C:\Users\zoshs\OneDrive\문서\workspace\C#\SolutionProject\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\zoshs\OneDrive\문서\workspace\C#\SolutionProject\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\BouceBall.csproj.GenerateResource.cache
+C:\Users\zoshs\OneDrive\문서\workspace\C#\SolutionProject\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\BouceBall.csproj.CoreCompileInputs.cache
+C:\Users\zoshs\OneDrive\문서\workspace\C#\SolutionProject\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\zoshs\OneDrive\문서\workspace\C#\SolutionProject\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
